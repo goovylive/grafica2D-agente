@@ -176,3 +176,4 @@ if st.session_state.show_plot:
         if st.session_state.needs_scroll:
             st.components.v1.html("<script>window.parent.document.getElementById('plot_zone').scrollIntoView({behavior: 'smooth'});</script>", height=0)
             st.session_state.needs_scroll = False
+            tr
